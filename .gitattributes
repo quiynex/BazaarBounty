@@ -1,3 +1,0 @@
-assignments/releases/*.zip filter=lfs diff=lfs merge=lfs -text
-assignments/final_presentation/*.mp4 filter=lfs diff=lfs merge=lfs -text
-assignments/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text

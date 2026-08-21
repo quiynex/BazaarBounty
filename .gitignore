@@ -21,9 +21,8 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-## GitHub hard limit is 100 MB per file — these course artifacts exceed it
-assignments/final_presentation/2_slides.pptx
-assignments/report/2_physical_prototype.pdf
-assignments/videos/0_physical_prototype.mp4
-assignments/releases/1_interim.zip
-assignments/releases/4_final_release.zip
+## Course assignments — keep only the final report
+assignments/*
+!assignments/report/
+assignments/report/*
+!assignments/report/6_final_report.pdf
