@@ -1,0 +1,305 @@
+{
+    "Graphics": {
+        "ScreenWidth": 1920,
+        "ScreenHeight": 1080,
+        "Fullscreen": false
+    },
+    "Debug": {
+        "Mode": false,
+        "Depth": 1.0
+    },
+    "SpawnBudget": {
+    "Start": 5,
+    "End": 25
+    },
+    "Enemy":{
+        "Bat":{
+            "Black":{
+                "Speed":            150.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     20.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  10.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Blue":{
+                "Speed":            200.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     20.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  10.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Red":{
+                "Speed":            250.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     20.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  10.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            }
+        },
+        "Slime":{
+            "Green":{
+                "Speed":            150.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  20.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Blue":{
+                "Speed":            200.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  20.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Red":{
+                "Speed":            250.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "AttackGapTime" :   0.5,
+                "MinAttackRange" :  20.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            }
+        },
+        "Lizard":{
+            "Purple":{
+                "Speed":            80.0,
+                "MaxHealth":        5,
+                "Damage" :          5,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Blue":{
+                "Speed":            100.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "SpawnCost" : 3
+            },
+            "Red":{
+                "Speed":            120.0,
+                "MaxHealth":        5,
+                "Damage" :          15,
+                "StunTime" :        0.4,
+                "AttackRange" :     40.0,
+                "SpawnCost" : 3
+            }
+        },
+        "Rat":{
+            "Brown":{
+                "Speed":            80.0,
+                "MaxHealth":        5,
+                "Damage" :          5,
+                "StunTime" :        0.4,
+                "AttackRange" :     50.0,
+                "RangeOfVision" :   500.0,
+                "SpawnCost" : 3
+            },
+            "Blue":{
+                "Speed":            100.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     50.0,
+                "SpawnCost" : 3
+            },
+            "Red":{
+                "Speed":            120.0,
+                "MaxHealth":        5,
+                "Damage" :          10,
+                "StunTime" :        0.4,
+                "AttackRange" :     50.0,
+                "SpawnCost" : 3
+            }
+        },
+        "Goblin":{
+            "Green":{
+                "Speed":            90.0,
+                "MaxHealth":        5,
+                "Damage" :          5,
+                "StunTime" :        0.4,
+                "SpawnCost" : 3
+            }
+        }
+    },
+    "Fruit":{
+        "Apple":{
+            "Name": "Apple",
+            "Description": "Restore 20% of your maximum health",
+            "IsPermanent" : true,
+            "FloatParam1": 0.2,
+            "SelectionRatio": 2
+        },
+        "Watermelon":{
+            "Name": "Watermelon",
+            "Description": "Restore 10 bullets",
+            "IsPermanent" : true,
+            "IntParam1": 10,
+            "IntParam2": 1,
+            "SelectionRatio": 1
+        },
+        "Banana":{
+            "Name": "Banana",
+            "Description": "Restore ammo to maximum, halve the cool down time for shooting, and double the bullet velocity",
+            "IsPermanent" : false,
+            "Duration": 20.0,
+            "FloatParam1": 2.0,
+            "SelectionRatio": 1
+        },
+        "Coconut":{
+            "Name": "Coconut",
+            "Description": "Your sword becomes larger, deals double damage, at the cost of a larger attacking interval",
+            "IsPermanent" : false,
+            "Duration": 25.0,
+            "FloatParam1": 1.75,
+            "FloatParam2": 1.35,
+            "IntParam1": 2,
+            "SelectionRatio": 1
+        },
+        "Grape":{
+            "Name": "Grape",
+            "Description": "Restore all your ammo and turn your secondary weapon into a shotgun",
+            "IsPermanent" : false,
+            "Duration": 20.0,
+            "IntParam1": 30,
+            "SelectionRatio": 1
+        },
+        "Peach":{
+            "Name": "Peach",
+            "Description": "Increase walk and dash speed and deal damage when dashing into enemies, at the cost of larger dash cooldown",
+            "IsPermanent" : false,
+            "Duration": 45.0,
+            "IntParam1": 3,
+            "FloatParam1": 1.2,
+            "SelectionRatio": 1
+        },
+        "Mango":{
+            "Name": "Mango",
+            "Description": "Greatly increase ranged defense, and auto-reflect hostile bullets",
+            "IsPermanent" : false,
+            "Duration": 30.0,
+            "FloatParam1": 2.0,
+            "SelectionRatio": 1
+        },
+        "Orange":{
+            "Name": "Orange",
+            "Description": "Increase defense to melee and ranged attacks",
+            "IsPermanent" : false,
+            "Duration": 25.0,
+            "FloatParam1": 1.3,
+            "FloatParam2": 1.3,
+            "SelectionRatio": 1
+
+        },
+        "Cherry":{
+            "Name": "Cherry",
+            "Description": "Increase maximum health and both defenses by 10%",
+            "IsPermanent" : true,
+            "FloatParam1": 1.1,
+            "SelectionRatio": 1
+        },
+        "Apple2":{
+            "Name": "Apple II",
+            "Description": "Increase your maximum health by a little, then restore current health by 25% of maximum health",
+            "IsPermanent" : true,
+            "IntParam1": 5,
+            "FloatParam1": 0.25,
+            "SelectionRatio": 1
+        },
+        "Watermelon2":{
+            "Name": "Watermelon II",
+            "Description": "Increase more bullet damage and restore 20 bullets",
+            "IsPermanent" : true,
+            "IntParam1": 20,
+            "IntParam2": 1,
+            "SelectionRatio": 1
+        },
+        "Banana2":{
+            "Name": "Banana II",
+            "Description": "Temporarily having unlimited ammo, halve the cool down time for shooting, double the bullet velocity, at a cost of health decrease",
+            "IsPermanent" : false,
+            "Duration": 15.0,
+            "FloatParam1": 2.0,
+            "FloatParam2": 0.7,
+            "SelectionRatio": 1
+        },
+        "Coconut2":{
+            "Name": "Coconut II",
+            "Description": "Your sword becomes larger, deals double damage, at the cost of a larger attacking interval",
+            "IsPermanent" : false,
+            "Duration": 25.0,
+            "FloatParam1": 1.75,
+            "FloatParam2": 1.35,
+            "IntParam1": 2,
+            "SelectionRatio": 1
+        },
+        "Grape2":{
+            "Name": "Grape II",
+            "Description": "Restore all your ammo and turn your secondary weapon into a shotgun",
+            "IsPermanent" : false,
+            "Duration": 30.0,
+            "IntParam1": 30,
+            "SelectionRatio": 1
+        },
+        "Peach2":{
+            "Name": "Peach II",
+            "Description": "Increase walk and dash speed and deal damage when dashing into enemies, at the cost of larger dash cooldown",
+            "IsPermanent" : false,
+            "Duration": 45.0,
+            "IntParam1": 3,
+            "FloatParam1": 1.2,
+            "SelectionRatio": 1
+        },
+        "Mango2":{
+            "Name": "Mango II",
+            "Description": "Greatly increase Ranged defense, increase melee defense, and auto-reflect hostile bullets",
+            "IsPermanent" : false,
+            "Duration": 15.0,
+            "FloatParam1": 3.0,
+            "FloatParam2": 1.2,
+            "SelectionRatio": 1
+        },
+        "Orange2":{
+            "Name": "Orange II",
+            "Description": "Significantly increase defense to melee and ranged attacks",
+            "IsPermanent" : false,
+            "Duration": 25.0,
+            "FloatParam1": 2.0,
+            "FloatParam2": 2.0,
+            "SelectionRatio": 1
+
+        },
+        "Cherry2":{
+            "Name": "Cherry II",
+            "Description": "Increase maximum health and both defenses by 25%",
+            "IsPermanent" : true,
+            "FloatParam1": 1.25,
+            "SelectionRatio": 1
+        }
+    }
+}

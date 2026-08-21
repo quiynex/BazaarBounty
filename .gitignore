@@ -1,0 +1,29 @@
+## .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+## MonoGame content pipeline intermediates
+**/Content/bin/
+**/Content/obj/
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## GitHub hard limit is 100 MB per file — these course artifacts exceed it
+assignments/final_presentation/2_slides.pptx
+assignments/report/2_physical_prototype.pdf
+assignments/videos/0_physical_prototype.mp4
+assignments/releases/1_interim.zip
+assignments/releases/4_final_release.zip

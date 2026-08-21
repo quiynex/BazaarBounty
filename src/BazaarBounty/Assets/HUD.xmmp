@@ -1,0 +1,78 @@
+<Project>
+  <Project.ExportOptions Namespace="BazaarBounty" Class="StatusBarUpdate"
+    OutputPath="C:\Lucas\Programming\Assignments\24Spring\GameLab\BazaarBounty\src\BazaarBounty\Game\UI" />
+  <Panel>
+    <VerticalStackPanel HorizontalAlignment="Left">
+      <Label Text="HP" Font="fonts/minecraft48.fnt" Margin="20, 20, 10, 10" />
+      <Grid ColumnSpacing="8" RowSpacing="8" Margin="20, 0, 0, 0">
+        <Grid.DefaultColumnProportion Type="Auto" />
+        <Grid.DefaultRowProportion Type="Auto" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="0" Grid.Column="0" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="1" Grid.Column="0" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="2" Grid.Column="0" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="3" Grid.Column="0" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="0" Grid.Column="1" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="1" Grid.Column="1" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="2" Grid.Column="1" />
+        <Image Renderable="images/heart.png" Width="64" Height="64" Grid.Row="3" Grid.Column="1" />
+      </Grid>
+      <HorizontalStackPanel Margin="20, 10, 10, 10">
+        <Image Renderable="images/dash.png" Width="48" Height="48" Grid.Row="0" Grid.Column="0" />
+        <Image Renderable="images/dash.png" Width="48" Height="48" Grid.Row="0" Grid.Column="0" />
+        <Image Renderable="images/dash.png" Width="48" Height="48" Grid.Row="0" Grid.Column="0" />
+        <Image Renderable="images/dash.png" Width="48" Height="48" Grid.Row="0" Grid.Column="0" />
+      </HorizontalStackPanel>
+      <HorizontalStackPanel Margin="20, 0, 0, 0">
+        <Image Renderable="images/icons/attack.png" Width="48" Height="48" />
+        <Label Text="10" Font="fonts/Minecraft32.fnt" Margin="10, 0, 0, 0"
+          VerticalAlignment="Bottom" />
+      </HorizontalStackPanel>
+
+      <Grid ColumnSpacing="8" RowSpacing="8" Margin="20, 10, 0, 0">
+        <Grid.DefaultColumnProportion Type="Auto" />
+        <Grid.DefaultRowProportion Type="Auto" />
+        <Image Renderable="images/fruits/Apple.png" VerticalAlignment="Center" />
+        <Label Text="30s" Font="fonts/Minecraft24.fnt" Height="16" HorizontalAlignment="Center"
+          VerticalAlignment="Center" Grid.Column="1" />
+      </Grid>
+    </VerticalStackPanel>
+    <VerticalStackPanel HorizontalAlignment="Right">
+      <Label Text="Bullets" Font="fonts/minecraft48.fnt" Margin="10, 10, 20, 0" />
+      <Image Renderable="images/ammo-rifle4.png" MinWidth="80" MinHeight="64" Margin="20, 5, 10, 5"
+        HorizontalAlignment="Right" />
+      <Image Renderable="images/ammo-rifle4.png" MinWidth="80" MinHeight="64" Margin="20, 5, 10, 5"
+        HorizontalAlignment="Right" />
+      <Image Renderable="images/ammo-rifle4.png" MinWidth="80" MinHeight="64" Margin="20, 5, 10, 5"
+        HorizontalAlignment="Right" />
+      <Image Renderable="images/ammo-rifle4.png" MinWidth="80" MinHeight="64" Margin="20, 5, 10, 5"
+        HorizontalAlignment="Right" />
+    </VerticalStackPanel>
+    <Label Text="Level 1" Font="fonts/Minecraft32.fnt" Margin="20, 0, 0, 10"
+      VerticalAlignment="Bottom" />
+    <Grid ColumnSpacing="8" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+      Margin="0, 0, 20, 10">
+      <Grid.DefaultColumnProportion Type="Auto" />
+      <Grid.DefaultRowProportion Type="Auto" />
+      <Image Renderable="images/icons/rightbumper.png" Width="48" Height="48"
+        VerticalAlignment="Center" />
+      <Label Text="Melee Attack" Font="fonts/Minecraft24.fnt" TextAlign="Center" Height="16"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" />
+      <Image Renderable="images/icons/leftbumper.png" Width="48" Height="48"
+        VerticalAlignment="Center" Grid.Row="1" />
+      <Label Text="Ranged Attack" Font="fonts/Minecraft24.fnt" TextAlign="Center" Height="16"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" />
+      <Image Renderable="images/icons/leftstick.png" Width="48" Height="48"
+        VerticalAlignment="Center" Grid.Row="2" />
+      <Label Text="Move" Font="fonts/Minecraft24.fnt" TextAlign="Center" Height="16"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" />
+      <Image Renderable="images/icons/rightstick.png" Width="48" Height="48"
+        VerticalAlignment="Center" Grid.Row="3" />
+      <Label Text="Aim" Font="fonts/Minecraft24.fnt" TextAlign="Center" Height="16"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" />
+      <Image Renderable="images/icons/righttrigger.png" Width="48" Height="48"
+        VerticalAlignment="Center" Grid.Row="4" />
+      <Label Text="Dash" Font="fonts/Minecraft24.fnt" TextAlign="Center" Height="16"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" />
+    </Grid>
+  </Panel>
+</Project>

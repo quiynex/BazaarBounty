@@ -1,0 +1,13 @@
+<Project>
+  <Project.ExportOptions Namespace="BazaarBounty" Class="GameOverNew" OutputPath="C:\Lucas\Programming\Assignments\24Spring\GameLab\BazaarBounty\src\BazaarBounty\Game\UI" />
+  <Panel HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Image Renderable="images/EndOfGameBgCrop.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ZIndex="-1" />
+    <VerticalStackPanel VerticalAlignment="Center">
+      <Label Text="Game Over" Font="fonts/Minecraft80_outline.fnt" HorizontalAlignment="Center" />
+      <VerticalMenu HorizontalAlignment="Center" VerticalAlignment="Center" LabelFont="fonts/Minecraft48.fnt" SelectionHoverBackground="#696969FF" SelectionBackground="#B59100FF" LabelHorizontalAlignment="Center" HoverIndexCanBeNull="False" Width="350" Border="#325736FF" BorderThickness="6" Padding="0, 5" Background="#212121A4" Id="_mainMenu">
+        <MenuItem Text="Restart" Image="images/ui_arrow.png" Id="_menuItemStartNewGame" />
+        <MenuItem Text="Quit" Id="_menuItemQuit" />
+      </VerticalMenu>
+    </VerticalStackPanel>
+  </Panel>
+</Project>

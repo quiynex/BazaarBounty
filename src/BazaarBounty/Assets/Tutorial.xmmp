@@ -1,0 +1,22 @@
+<Project>
+  <Project.ExportOptions Namespace="BazaarBounty" Class="Tutorial" OutputPath="C:\Lucas\Programming\Assignments\24Spring\GameLab\BazaarBounty\src\BazaarBounty\Game\UI" />
+  <Panel>
+    <Image Renderable="images/bg_main.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    <Panel HorizontalAlignment="Center" VerticalAlignment="Center">
+      <Panel Opacity="0.9" Background="#2A7836FF" />
+      <VerticalStackPanel>
+        <TextBox Text="Tutorial" Font="fonts/Minecraft48.fnt" HorizontalAlignment="Center" Margin="20, 20, 20, 5" Background="#00000000" />
+        <TextBox Text="Your goal is to defeat all the enemies in each level to save the bazaar. (20 levels)" Font="fonts/Minecraft24.fnt" Margin="20, 20, 20, 5" Background="#00000000" />
+        <TextBox Text="You can attack with a sword and shoot with a gun." Font="fonts/Minecraft24.fnt" Margin="20, 5" Background="#00000000" />
+        <TextBox Text="Clear levels to obtain fruit buffs from enemies to strengthen youself!" Font="fonts/Minecraft24.fnt" Margin="20, 5" Background="#00000000" />
+        <TextBox Text="Hint:" Font="fonts/Minecraft32.fnt" TextColor="#FE3930FF" Margin="20, 5" Background="#00000000" />
+        <TextBox Text="Swing your sword at the right time to deflect bullets from enemies!" Font="fonts/Minecraft24.fnt" TextColor="#FE3930FF" Margin="20, 5" Background="#00000000" />
+        <Image Renderable="images/controller.png" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <HorizontalStackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20, 0, 20, 20">
+          <Image Renderable="images/icons/A.png" Width="54" Height="48" Margin="0, 0, 8, 0" />
+          <TextBox Text="Continue" Font="fonts/Minecraft32.fnt" VerticalAlignment="Center" Background="#00000000" />
+        </HorizontalStackPanel>
+      </VerticalStackPanel>
+    </Panel>
+  </Panel>
+</Project>
